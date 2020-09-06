@@ -111,7 +111,7 @@ form input:not([type="submit"]), form textarea { padding: 20px 20px; background:
 .hero-slider { position: relative; }
 .hero-slider .slides { list-style: none; margin: 0; padding: 0; *zoom: 1; }
 .hero-slider .slides:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
-.hero-slider .slides li { margin-right: -100%; width: 100%; float: left; background-size: cover; min-height: 860px; background-position: center center; padding-top: 200px; }
+.hero-slider .slides li { margin-right: -100%; width: 50%; float: left; background-size: cover; min-height: 1000px; background-position: center center; padding-top: 200px; opacity: 0; }
 .hero-slider .slides .slider-subtitle { font-size: 30px; font-size: 1.875rem; color: white; text-transform: uppercase; font-weight: 300; font-family: "Novecento Sans", "Open Sans", sans-serif; margin: 0; line-height: 1; }
 .hero-slider .slides .slider-title { color: #cc7250; font-size: 90px; font-size: 5.625rem; font-weight: 300; font-family: "Novecento Sans", "Open Sans", sans-serif; text-transform: uppercase; margin: 0 0 30px; line-height: 1; background-image: -webkit-linear-gradient(90deg, #cc7250, #f7d0c2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; word-break: break-all; }
 .hero-slider .slides p { width: 50%; margin-bottom: 50px; }
